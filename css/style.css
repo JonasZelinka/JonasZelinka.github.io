@@ -2,7 +2,7 @@
 
 :root{
     --primary-color: rgb(255, 255, 255);
-    --secondary-color: rgb(149, 23, 144);
+    --secondary-color: rgb(134, 21, 130);
 }
 html{
     scroll-behavior: smooth;
@@ -49,7 +49,7 @@ html{
     border-radius: 5px;
 }
 #showcase {
-    background: #333 url('../img/krzysztof-hepner-C1JTOq_uTpY-unsplash.jpg')no-repeat center center/cover;
+    
     height: 100vh;
     padding-top: 10px;
 }
@@ -92,13 +92,18 @@ html{
 .btn:hover {
     background-color: var(--secondary-color);
 }
-#img {
-    background: url('../img/purple-color-solid-background-1920x1080.png') no-repeat center center/cover;
-    height: 100vh;
-    justify-content: center;
+.background1 {
+    background-color: rgb(48, 48, 48);
+    height: 750px; 
 }
-#img2 {
-    background: url('../img/960x0.webp') no-repeat center center/cover;
-    height: 100vh;
-    justify-content: center;
+.background2 {
+    background-color: rgb(116, 110, 116);
+    height: 750px; 
+}
+.background3 {
+    background-color: rgb(68, 68, 68);
+    height: 750px; 
+}
+.text-center {
+    text-align: center;
 }
