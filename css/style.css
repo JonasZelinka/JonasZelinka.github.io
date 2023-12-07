@@ -134,3 +134,7 @@ html{
     align-items: center;
     padding: 10px;
 }
+.obrazek {
+    justify-content: space-evenly;  
+    display: flex;  
+}
